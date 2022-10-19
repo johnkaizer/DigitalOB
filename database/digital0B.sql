@@ -19,13 +19,15 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `digitalob`
---
+--Admin password
+-- 
 
 -- --------------------------------------------------------
 
 --
 -- Table structure for table `admin`
---
+--admin1@admin.com
+-- 1234
 
 CREATE TABLE `admin` (
   `id` int(15) NOT NULL,
