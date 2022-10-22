@@ -1,6 +1,21 @@
 # DigitalOB
-A Foundation envisions on global community that empowers, upholds the dignity and protects the rights of every girl child and extends that to her caregivers and community.
-Our story began on August 26th 2013, with an emotive feature titled “Period of Shame” on Citizen TV, which caught the attention of many people, our founder, Janet Mbugua, included. 
+The Digital police OB for Kimilili police station is a web based application that
+# Product Features
+### Data Capturing 
+The data in the station will be recorded in the system, saved and stored in the 
+database.
+### Monitoring and Tracking
+The system will enable different people including the police bosses in the station, 
+the general citizens and the officers to be able to monitor and track the progress of 
+reported cases in the station.
+### Data Integrity
+The system will promote data integrity, such that once a case has been reported, 
+recorded and filed it will not be able to be altered or manipulated by anyone with 
+malicious intentions.
+### Data retrieval 
+Any needed information from the system will be retrieved easily as all the cases 
+informed will be stored and backed up in the database
+will run on a web browser. 
 ## Technologies used
 * JavaScript-
 * CSS- 
