@@ -9,22 +9,27 @@ Our story began on August 26th 2013, with an emotive feature titled “Period of
 
 # Screenshots
 # Landing Page screens
-<img src="images/landingpage.png" width="900" > 
+<img src="images/landingpage.png" width="800" > 
 
 # Admin DashBoard Screen
-<img src="images/admindash.png" width="900" >
+<img src="images/admindash.png" width="800" >
 
 # Officers Dashboard Screen
-<img src="images/offdash.png" width="900" >
+<img src="images/offdash.png" width="800" >
 
 
 ## Pre-requisites
-- Basic java, Android Studio and Git knowledge, including an installed version of Git.
-- Your application must run on the OpenJDK version 11 onwards.
+- Basic javascript,php,mysql ,Xampp, Visual Studio Code and Git knowledge, including an installed version of Git.
 
 ## Setup & Installation
-* Clone the project into your machine from `https://github.com/InuaDada-Foundation.git`
+* Clone the project into your machine from `https://github.com/johnkaizer/DigitalOB.git` or download the code, extract the files.
 * Run the project in the forked root folder- gradle run.
+* Install Xampp Server and start Mysql and Apache.
+* copy the ectracted file in the xampp 'htdocs' folder.
+* Open browser and search 'http://localhost/phpmyadmin/'.
+* Create data base 'digitalOb' and import the 'digitalob.db' file from the project an the admin password are written in the file.
+* open your bowsers and search 'localhost://your folder name/index.php'.
+
 
 ## Development
 Want to contribute? Great!
