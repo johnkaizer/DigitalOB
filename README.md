@@ -8,15 +8,15 @@ Our story began on August 26th 2013, with an emotive feature titled “Period of
 * Php- 
 
 # Screenshots
-### Onboarding screens
-<img src="Images/onboard1.png" width="200" > <img src="Images/onboard2.png" width="200" >
-<img src="Images/onboard3.png" width="200" ><img src="Images/onboard4.png" width="200" >
-### Homescreens and SignUp n Sign In
-<img src="Images/signin.png" width="200" ><img src="Images/signup.png" width="200" >
-<img src="Images/home1.png" width="200" ><img src="Images/home2.png" width="200" >
-### Screens
-<img src="Images/liveblog.png" width="200" ><img src="Images/gallery.png" width="200" >
-<img src="Images/program.png" width="200" ><img src="Images/account.png" width="200" >
+# Landing Page screens
+<img src="images/landingpage.png" width="900" > 
+
+# Admin DashBoard Screen
+<img src="images/admindash.png" width="900" >
+
+# Officers Dashboard Screen
+<img src="images/offdash.png" width="900" >
+
 
 ## Pre-requisites
 - Basic java, Android Studio and Git knowledge, including an installed version of Git.
