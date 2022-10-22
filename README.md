@@ -17,10 +17,10 @@ Any needed information from the system will be retrieved easily as all the cases
 informed will be stored and backed up in the database
 will run on a web browser. 
 ## Technologies used
-* JavaScript-
-* CSS- 
-* MySql-
-* Php- 
+* JavaScript
+* CSS 
+* MySql
+* Php
 
 # Screenshots
 # Landing Page screens
@@ -43,7 +43,7 @@ will run on a web browser.
 * copy the ectracted file in the xampp 'htdocs' folder.
 * Open browser and search 'http://localhost/phpmyadmin/'.
 * Create data base 'digitalOb' and import the 'digitalob.db' file from the project an the admin password are written in the file.
-* open your bowsers and search 'http:localhost://your folder name/index.php'.
+* open your bowsers and search 'http://localhost://your folder name/index.php'.
 
 
 ## Development
