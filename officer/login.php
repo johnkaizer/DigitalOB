@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="../resorce/css/style.css" rel="stylesheet">
 
-    <title>Employee Management System</title>
+    <title>DigitalOB System</title>
     <style>
     body, html {
     height: 100%;
@@ -53,7 +53,7 @@ if( $_SERVER["REQUEST_METHOD"] == "POST" ){
     // database connection
     require_once "../connection.php";
 
-    $sql_query = "SELECT * FROM employee WHERE email='$email' && password = '$pass'  ";
+    $sql_query = "SELECT * FROM officers WHERE email='$email' && password = '$pass'  ";
     $result = mysqli_query($conn , $sql_query);
 
     if ( mysqli_num_rows($result) > 0 ){

@@ -9,7 +9,7 @@ require_once "include/header.php";
     // databaseconnection
     require_once "../connection.php";
 
-    $sql_command = "SELECT * FROM employee WHERE email = '$_SESSION[email_emp]' ";
+    $sql_command = "SELECT * FROM officers WHERE email = '$_SESSION[email_emp]' ";
     $result = mysqli_query($conn , $sql_command);
 
     if( mysqli_num_rows($result) > 0){

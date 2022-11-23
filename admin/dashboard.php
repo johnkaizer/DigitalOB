@@ -21,12 +21,12 @@ require_once "include/header.php";
         $select_cases = "SELECT * FROM cases_tbl";
         $total_cases = mysqli_query($conn , $select_cases);
 
-        // total employee
-        $select_emp = "SELECT * FROM employee";
+        // total officers
+        $select_emp = "SELECT * FROM officers";
         $total_emp = mysqli_query($conn , $select_emp);
 
-        // employee on leave
-        $emp_leave  ="SELECT * FROM emp_leave";
+        // officer on leave
+        $emp_leave  ="SELECT * FROM off_leave";
         $total_leaves = mysqli_query($conn , $emp_leave);
 
         if( mysqli_num_rows($total_leaves) > 0 ){
@@ -47,7 +47,7 @@ require_once "include/header.php";
         }
 
 
-        // highest paid employee
+        // highest paid oficer
         $sql_highest_salary =  "SELECT * FROM employee ORDER BY salary DESC";
         $emp_ = mysqli_query($conn , $sql_highest_salary);
 
@@ -82,6 +82,8 @@ require_once "include/header.php";
                     <li class="list-group-item text-center">Officers on  Leave (Daywise)</li>
                     <li class="list-group-item">Today :  <?php echo $today_leave; ?>  </li>
                     <li class="list-group-item">Tomarrow :  <?php echo $tomarrow_leave; ?> </li>
+                    <li class="list-group-item text-center"><a href="manage-leave.php"> <b>View Officers on Leave </b></a></li>
+
                 </ul>
             </div>
         </div>

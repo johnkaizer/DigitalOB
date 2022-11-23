@@ -10,7 +10,7 @@
 //  database connection
 require_once "../connection.php";
 
-$sql = "SELECT * FROM emp_leave WHERE status = 'pending' ";
+$sql = "SELECT * FROM off_leave WHERE status = 'pending' ";
 $result = mysqli_query($conn , $sql);
 
 $i = 1;

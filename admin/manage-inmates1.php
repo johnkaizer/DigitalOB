@@ -101,8 +101,8 @@ table {
             $(document).ready( function(){
                 $('#showModal').modal('show');
                 $('#linkBtn').attr('href', 'add-inmates.php');
-                $('#linkBtn').text('Add Suspect');
-                $('#addMsg').text('No Suspect(s) Found!');
+                $('#linkBtn').text('Add Inmates');
+                $('#addMsg').text('No inmates(s) Found!');
                 $('#closeBtn').text('Remind Me Later!');
             })
          </script>

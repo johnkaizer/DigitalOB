@@ -52,7 +52,7 @@ INSERT INTO `admin` (`id`, `name`, `email`, `gender`, `dob`, `password`, `dp`) V
 -- Table structure for table `officers`/employee
 --
 
-CREATE TABLE `employee` (
+CREATE TABLE `officers` (
   `id` int(15) NOT NULL,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
@@ -95,7 +95,7 @@ CREATE TABLE `cases_tbl` (
 --
 --Table structure for "inmates"
 --
-CREATE TABLE `admin` (
+CREATE TABLE `inmates` (
   `id` int(15) NOT NULL,
   `name` varchar(255) NOT NULL,
   `id_no` int(25) NOT NULL,
@@ -114,15 +114,15 @@ ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `employee/police`
+-- Indexes for table `police`
 --
-ALTER TABLE `employee`
+ALTER TABLE `officers`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `emp_leave/police leave`
+-- Indexes for table `off_leave'
 --
-ALTER TABLE `emp_leave`
+ALTER TABLE `off_leave`
   ADD PRIMARY KEY (`id`);
   --
 -- Indexes for table `inmates`
@@ -148,13 +148,13 @@ ALTER TABLE `admin`
 --
 -- AUTO_INCREMENT for table `employee/police`
 --
-ALTER TABLE `employee`
+ALTER TABLE `officers`
   MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `emp_leave/police leave`
 --
-ALTER TABLE `emp_leave`
+ALTER TABLE `off_leave`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 

@@ -13,7 +13,7 @@ require_once "include/header.php";
 
         // applied leaves--------------------------------------------------------------------------------------------
         $total_accepted = $total_pending = $total_canceled = $total_applied = 0;
-        $leave = "SELECT * FROM emp_leave WHERE email = '$_SESSION[email_emp]' ";
+        $leave = "SELECT * FROM off_leave WHERE email = '$_SESSION[email_emp]' ";
         $result = mysqli_query($conn , $leave);
 
         if( mysqli_num_rows($result) > 0 ){
@@ -44,7 +44,7 @@ require_once "include/header.php";
         $upcoming_leave_status = "";
 
         // for last leave status
-        $check_leave = "SELECT * FROM emp_leave WHERE email = '$_SESSION[email_emp]' ";
+        $check_leave = "SELECT * FROM off_leave WHERE email = '$_SESSION[email_emp]' ";
         $s = mysqli_query($conn , $check_leave);
         if( mysqli_num_rows($s) > 0 ){
             while( $info = mysqli_fetch_assoc($s) ){
@@ -54,7 +54,7 @@ require_once "include/header.php";
 
 
     // for next leave date
-    $check_ = "SELECT * FROM emp_leave WHERE email = '$_SESSION[email_emp]' ORDER BY start_date ASC ";
+    $check_ = "SELECT * FROM off_leave WHERE email = '$_SESSION[email_emp]' ORDER BY start_date ASC ";
     $e = mysqli_query($conn , $check_); 
     if( mysqli_num_rows($e) > 0 ){
         while( $info = mysqli_fetch_assoc($e) ){

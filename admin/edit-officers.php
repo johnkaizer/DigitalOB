@@ -17,7 +17,7 @@
          $id = $_GET["id"];
         require_once "../connection.php";
 
-        $sql = "SELECT * FROM employee WHERE id = $id ";
+        $sql = "SELECT * FROM officers WHERE id = $id ";
         $result = mysqli_query($conn , $sql);
 
         if(mysqli_num_rows($result) > 0 ){
@@ -83,7 +83,7 @@
                 // database connection
                 // require_once "../connection.php";
 
-                $sql_select_query = "SELECT email FROM employee WHERE email = '$email' ";
+                $sql_select_query = "SELECT email FROM officers WHERE email = '$email' ";
                 $r = mysqli_query($conn , $sql_select_query);
 
                 if( mysqli_num_rows($r) > 0 ){
@@ -91,15 +91,15 @@
                 } else{
                    
 
-                    $sql = "UPDATE employee SET name = '$name' , email = '$email', password ='$pass' , dob='$dob', gender='$gender' , salary='$salary' WHERE id = $_GET[id] ";
+                    $sql = "UPDATE officers SET name = '$name' , email = '$email', password ='$pass' , dob='$dob', gender='$gender' , salary='$salary' WHERE id = $_GET[id] ";
                     $result = mysqli_query($conn , $sql);
                     if($result){
                         echo "<script>
                         $(document).ready( function(){
                             $('#showModal').modal('show');
                             $('#modalHead').hide();
-                            $('#linkBtn').attr('href', 'manage-employee.php');
-                            $('#linkBtn').text('View Employees');
+                            $('#linkBtn').attr('href', 'manage-officers.php');
+                            $('#linkBtn').text('View Officers');
                             $('#addMsg').text('Profile Edit Successfully!');
                             $('#closeBtn').text('Edit Again?');
                         })
@@ -124,7 +124,7 @@
                     <div class="form-input-content">
                         <div class="card login-form mb-0">
                             <div class="card-body pt-4 shadow">                       
-                                    <h4 class="text-center">Edit Employee profile</h4>
+                                    <h4 class="text-center">Edit Officers profile</h4>
                                 <form method="POST" action=" <?php htmlspecialchars($_SERVER['PHP_SELF']) ?>">
                             
                                 <div class="form-group">

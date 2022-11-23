@@ -108,8 +108,8 @@
                             <i class="fa fa-address-card-o menu-icon"></i><span class="nav-text">Officers</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="./add-employee.php"> <i class="icon-plus menu-icon"></i><span class="nav-text">Add Officers</span></a></li>
-                            <li><a href="./manage-employee.php"> <i class="fa fa-tasks menu-icon"></i><span class="nav-text">Manage Officers</span></a></li>
+                            <li><a href="./add-officer.php"> <i class="icon-plus menu-icon"></i><span class="nav-text">Add Officers</span></a></li>
+                            <li><a href="./manage-officers.php"> <i class="fa fa-tasks menu-icon"></i><span class="nav-text">Manage Officers</span></a></li>
                             <!-- <li><a href="./"> <i class="fa fa-bar-chart menu-icon"></i><span class="nav-text">Salary Table</span></a></li> -->
 
                         </ul>

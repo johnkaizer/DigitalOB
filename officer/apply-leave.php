@@ -35,7 +35,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // database connection 
             require_once "../connection.php";
 
-            $sql = "INSERT INTO emp_leave( reason , start_date , last_date , email , status ) VALUES( '$reason' , '$startdate' , '$lastdate' , '$_SESSION[email_emp]' , 'pending' )";
+            $sql = "INSERT INTO off_leave( reason , start_date , last_date , email , status ) VALUES( '$reason' , '$startdate' , '$lastdate' , '$_SESSION[email_emp]' , 'pending' )";
             $result = mysqli_query($conn , $sql);
             if($result){
                 $reason = $startdate = $lastdate = "";

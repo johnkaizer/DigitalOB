@@ -12,7 +12,7 @@
 //  database connection
 require_once "../connection.php";
 
-$sql = "SELECT * FROM employee";
+$sql = "SELECT * FROM officers";
 $result = mysqli_query($conn , $sql);
 
 $i = 1;
@@ -103,7 +103,7 @@ table {
             echo "<script>
             $(document).ready( function(){
                 $('#showModal').modal('show');
-                $('#linkBtn').attr('href', 'add-employee.php');
+                $('#linkBtn').attr('href', 'add-officer.php');
                 $('#linkBtn').text('Add Officers');
                 $('#addMsg').text('No Officers Found!');
                 $('#closeBtn').text('Remind Me Later!');
