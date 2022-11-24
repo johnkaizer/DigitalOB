@@ -81,7 +81,7 @@
                     </div>
                 </div>
                <div class="text-center">
-                <h2 class="pt-3"> DigitalOB System (KIMILILI POLICE POST) </h2>
+                <h2 class="pt-3"> DigitalOB System  </h2>
                  </div>
                 
             </div>

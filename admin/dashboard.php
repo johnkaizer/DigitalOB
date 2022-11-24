@@ -48,7 +48,7 @@ require_once "include/header.php";
 
 
         // highest paid oficer
-        $sql_highest_salary =  "SELECT * FROM employee ORDER BY salary DESC";
+        $sql_highest_salary =  "SELECT * FROM officers ORDER BY salary DESC";
         $emp_ = mysqli_query($conn , $sql_highest_salary);
 
 
@@ -82,7 +82,7 @@ require_once "include/header.php";
                     <li class="list-group-item text-center">Officers on  Leave (Daywise)</li>
                     <li class="list-group-item">Today :  <?php echo $today_leave; ?>  </li>
                     <li class="list-group-item">Tomarrow :  <?php echo $tomarrow_leave; ?> </li>
-                    <li class="list-group-item text-center"><a href="manage-leave.php"> <b>View Officers on Leave </b></a></li>
+                    <li class="list-group-item text-center"><a href="officerson-leave.php"> <b>View Officers on Leave </b></a></li>
 
                 </ul>
             </div>

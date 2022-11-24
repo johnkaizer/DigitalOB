@@ -80,7 +80,7 @@
                     </div>
                 </div>
                <div class="text-center">
-                <h2 class="pt-3"> DigitalOB System (KIMILILI POLICE POST)</h2>
+                <h2 class="pt-3"> DigitalOB System </h2>
                  </div>
                 
             </div>
@@ -126,9 +126,13 @@
                     </li>
                     
                     <li>
-                        <a href="./manage-leave.php" >
-                            <i class="fa fa-tasks menu-icon"></i><span class="nav-text">Manage Officers Leave</span>
+                    <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="fa fa-address-card-o menu-icon"></i><span class="nav-text">Officers Leave</span>
                         </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./manage-leave.php"> <i class="fa fa-tasks menu-icon"></i><span class="nav-text">Manage Leaves</span></a></li>
+                            <li><a href="./officerson-leave.php"> <i class="fa fa-tasks menu-icon"></i><span class="nav-text">Officers On Leave</span></a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="./manage-inmates1.php" >

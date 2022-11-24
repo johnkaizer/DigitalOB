@@ -13,7 +13,7 @@
  
 <div class="footer hide">
             <div class="copyright">
-                <p>Copyright &copy; Designed & Developed by <a href="#">Phillip Wangila</a> 2022</p>
+                <p>Copyright &copy; Designed & Developed by <a href="#">John Kaiser</a> 2022</p>
             </div>
         </div>
         <!--**********************************

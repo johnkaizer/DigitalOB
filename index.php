@@ -39,7 +39,7 @@
                         <div class="card login-form mt-5">
                             <div class="card-body shadow">   
 
-                                    <h2 class="text-center pb-4">DigitalOB System (KIMILILI POLICE POST)</h2>
+                                    <h2 class="text-center pb-4">DigitalOB System </h2>
                                     <h6 class="text-center pb-4">Please Log-In Acording To Your Role Below!!</h6>
                 
                                 <div class="container mt-4">
