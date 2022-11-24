@@ -1,5 +1,5 @@
 # DigitalOB
-The Digital police OB for Kimilili police station is a web based application that
+The Digital police OB is a web based application that
 # Product Features
 ### Data Capturing 
 The data in the station will be recorded in the system, saved and stored in the 
