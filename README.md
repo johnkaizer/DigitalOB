@@ -24,13 +24,13 @@ will run on a web browser.
 
 # Screenshots
 # Landing Page screens
-<img src="images/landingpage.png" width="800" > 
+<img src="images/dash.png" width="800" > 
 
 # Admin DashBoard Screen
-<img src="images/admindash.png" width="800" >
+<img src="images/admin.png" width="800" >
 
 # Officers Dashboard Screen
-<img src="images/offdash.png" width="800" >
+<img src="images/officer.png" width="800" >
 
 
 ## Pre-requisites
